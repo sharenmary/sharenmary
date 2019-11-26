@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<head>
+        <title>
+            Portfolio
+        </title>
+       <meta name="author" content="Sharen Mary Charley">
+       <meta name="key" content="My site">
+       <meta name="viewport" content="shrink-to-fit=no, intial scale=1.0, width=deivce-width, height=device-height, minimum-scale=1.0, maximum scale=1.0, user-scalable=no">
+       <link rel="stylesheet" type="text/css" href="/public/css/project.css">
+</head>
+<body>
+        <div class="popup" id="popup" onclick="document.getElementById('popup').style.display='none'">
+                <div class="box">
+                    <img src="/public/images/dialogue.png">
+                 </div>
+
+        <div class="textt">Leave me a mail</div>
+        <div class="textter">sharenmary99@gmail.com</div>
+        
+        <div class="form">
+                  <div class="sub"><input type="text" id="sub" name="subject" placeholder="Subject.."></div><br>
+                  <div class="body"><input type="text" id="body" name="body"  placeholder="Body.."></div><br>
+
+                  <div class="socialcon">
+                  <div class="social"><img src="/public/images/insta.png"></div>
+                  <div class="social"><img src="/public/images/fb.png"></div>
+                  <div class="social"><img src="/public/images/twitter.png"></div>
+                  <div class="social"><img src="/public/images/behance.png"></div>
+                  <div class="social"><img src="/public/images/share.png"></div>
+                </div>
+                  
+        </div>
+        </div>
+
+    <div class="main">
+    
+        <div class="navone">
+            <div class="logo">
+                <a href="/index.html"><img src="/public/images/logo.png"></a>
+            </div>
+            <div class="lang">
+                EN ---- FR
+            </div>
+            <div class="blogs">
+                <a href="/blogmenu.html">BLOGS</a>
+            </div>
+            <div class="contact" onclick="document.getElementById('popup').style.display='block'">
+                     CONTACT
+            </div>
+        </div>
+
+        <div class="navtwo">
+                <div class="about">
+                <a href="/about.html"><span> ABOUT</span> </a>
+                </div>
+
+                <div class="projects">
+                PROJECTS
+                </div>
+
+                <div class="resume">
+                <a href="/resume.html"><span>RESUME </span></a>
+                </div>
+        </div>
+
+        <div class="menu" onclick="return test();" >
+                <img src="/public/images/menu.png">
+                <div class="menulist" id="dd">
+                    <div class="listone"><a href="blogmenu.html">BLOGS</a></div>
+                    <div class="listtwo">CONTACT</div>
+                </div>   
+        </div>
+
+        <script>
+            function test(){
+                if(document.getElementById('dd').style.display=='block')
+                {
+                document.getElementById('dd').style.display='none';
+                }
+                else{
+                    document.getElementById('dd').style.display='block';
+                }
+            };
+        </script> 
+        
+        <div class="items">
+
+            <a href="/portfolio.html"> <div class="item1">
+                   <img src="/public/images/pone.jpg">
+                  <div class="hov">
+                        <h4> GAME DESIGN </h4>
+                        <div class="disc"> <p>Game Art</p></div>
+                   </div>
+                </div></a>
+
+                <a href="/portfoliotwo.html"> <div class="item1">
+                <img src="/public/images/ptwo.jpg">
+                  <div class="hov">
+                        <h4> USER INTERFACE </h4>
+                        <div class="disc"> <p> TV UI</p></div>
+                   </div>
+                </div></a>
+
+                <div class="item1">
+                <img src="/public/images/pthree.jpg">  
+                <div class="hov">
+                        <h4> GRAPHIC DESIGN </h4>
+                        <div class="disc"> <p>Illustrations</p></div>
+                   </div>
+                </div>
+
+                <div class="item1">
+                <img src="/public/images/pfour.jpg">
+                <div class="hov">
+                        <h4> GRAPHIC DESIGN </h4>
+                        <div class="disc"> <p>Criticising Graphic Posters</p></div>
+                   </div>
+                </div>
+
+                <div class="item1">
+                <img src="/public/images/pfive.jpg">
+                <div class="hov">
+                        <h4> GAME DESIGN </h4>
+                        <div class="disc"> <p>Educational Game</p></div>
+                   </div>
+                </div>
+
+                <div class="item1">
+                <img src="/public/images/psix.jpg">
+                <div class="hov">
+                        <h4> GRAPHIC DESIGN </h4>
+                        <div class="disc"> <p>Typography</p></div>
+                   </div>
+                </div>
+
+                <div class="item1">
+                <img src="/public/images/pseven.jpg">
+                <div class="hov">
+                        <h4> GRAPHIC DESIGN </h4>
+                        <div class="disc"> <p>Posters</p></div>
+                   </div>
+                </div>
+
+                <div class="item1">
+                <img src="/public/images/peight.jpg">
+                <div class="hov">
+                        <h4> USER INTERFACE</h4>
+                        <div class="disc"> <p>Mobile UI</p></div>
+                   </div>
+                </div>
+
+                <div class="item1">
+                <img src="/public/images/pnine.jpg">
+                <div class="hov">
+                        <h4> GRAPHIC DESIGN </h4>
+                        <div class="disc"> <p>Moodboards</p></div>
+                   </div>
+                </div>
+
+                <div class="item1">
+                <img src="/public/images/pten.jpg">
+                <div class="hov">
+                        <b><h4> USER INTERFACE </h4></b>
+                        <div class="disc"> <p>Redesigning Websites</p></div>
+                   </div>
+                </div>
+
+            </div>
+
+
+    </div>
+
+</body>
+</html>

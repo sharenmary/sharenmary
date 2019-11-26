@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+        <title>
+            Project 1
+        </title>
+       <meta name="author" content="Sharen Mary Charley">
+       <meta name="key" content="My site">
+       <meta name="viewport" content="shrink-to-fit=no, intial scale=1.0, width=deivce-width, height=device-height, minimum-scale=1.0, maximum scale=1.0, user-scalable=no">
+       <link rel="stylesheet" type="text/css" href="/public/css/portfolio.css">
+</head>
+
+
+<body>
+        
+
+<div class="main">
+        <div class="popup" id="popup" onclick="document.getElementById('popup').style.display='none'">
+                <div class="box">
+                    <img src="/public/images/dialogue.png">
+                </div>
+        <div class="textt">Leave me a mail</div>
+        <div class="textter">sharenmary99@gmail.com</div>
+        
+        <div class="form">
+                  <div class="sub"><input type="text" id="sub" name="subject" placeholder="Subject.."></div><br>
+                  <div class="body"><input type="text" id="body" name="body" placeholder="Body.."></div>
+                  <div class="socialcon">
+                  <div class="social"><img src="/public/images/insta.png"></div>
+                  <div class="social"><img src="/public/images/fb.png"></div>
+                  <div class="social"><img src="/public/images/twitter.png"></div>
+                  <div class="social"><img src="/public/images/behance.png"></div>
+                  <div class="social"><img src="/public/images/share.png"></div>
+                  </div>
+        </div>
+        </div>
+    
+        <div class="navone">
+            <div class="logo">
+                <a href="/index.html"><img src="/public/images/logo.png"></a>
+            </div>
+            <div class="lang">
+                EN ---- FR
+            </div>
+            <div class="blogs" >
+                    <a href="/about.html"> BLOGS </a>
+            </div>
+            <div class="contact" onclick="document.getElementById('popup').style.display='block'">
+                CONTACT
+            </div>
+        </div>
+
+        <div class="navtwo">
+                <div class="about">
+                <a href="/about.html"><span> ABOUT</span> </a>
+                <div class="underlineon"></div>
+                </div>
+
+                <div class="projects">
+                <a href="/projects.html">PROJECTS</a>
+                <div class="underlinetw"></div>
+                </div>
+
+                <div class="resume">
+                <div class="underlinethree"></div>
+                <a href="/resume.html"></a><span>RESUME </span></a>
+                </div>
+        </div>
+            
+        <div class="menu" onclick="return test();" >
+                <img src="/public/images/menu.png">
+                <div class="menulist" id="dd">
+                    <div class="listone"><a href="blogmenu.html">BLOGS</a></div>
+                    <div class="listtwo">CONTACT</div>
+                </div>   
+        </div>
+
+        <script>
+            function test(){
+                if(document.getElementById('dd').style.display=='block')
+                {
+                document.getElementById('dd').style.display='none';
+                }
+                else{
+                    document.getElementById('dd').style.display='block';
+                }
+            };
+        </script>
+        
+        <div class="open">
+            <img src="/public/images/gameartone.jpg">
+            <img src="/public/images/gamearttwo.jpg">
+            <img src="/public/images/gameartthree.jpg">
+            <img src="/public/images/gameartfour.jpg">
+            <img src="/public/images/gameartfive.jpg">
+            <img src="/public/images/gameartsix.jpg">
+            <img src="/public/images/gameartseven.jpg">
+            
+        </div>
+        
+    </div>
+</body>
+</html>
+    

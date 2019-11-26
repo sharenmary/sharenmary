@@ -1,0 +1,720 @@
+@font-face {
+    font-family: 'opensan';
+    src: url('/public/font/OpenSans-Regular.ttf');
+}
+
+.popup{
+    position: fixed;
+    width: 100vw;
+    height: 100vw;
+    background: rgb(0, 0, 0, 0.5);
+    display: none;
+    
+}
+.form{
+    display: grid;
+    grid: 25% 50% 25% / 37%;
+}
+
+.sub #sub{
+    width:100%;
+    height: 30px;
+    border: none;
+    font-size:15px;
+}
+
+.body #body{
+    text-align: left;
+    margin-top: 1%;
+    width: 100%;
+    height: 180px;
+    font-size:15px;
+    border: none;
+}
+
+.socialcon{
+    z-index: 8;
+ 
+    display: grid;
+    grid: auto/20% 20% 20% 20% 20%;
+    grid-column-gap: 30%;
+    width: 13vw;
+    margin-top:1vw;
+    margin-left: 1vw;
+}
+
+
+.box{
+    display: block;
+    margin-left: 20vw;
+    position: absolute;
+    z-index: 5;
+    margin-top: 3vw;
+    margin-left:61vw;
+}
+
+.textt{
+    position: absolute;
+    z-index: 8;
+    margin-left: 63vw;
+    margin-top: 8vw;
+    color: #3d0167;
+    font-weight: bold;
+}
+
+.textter{
+    position: absolute;
+    z-index: 8;
+    margin-left: 63vw;
+    margin-top: 9.25vw;
+    color: black;
+}
+
+.form{
+    position: absolute;
+    z-index:9;
+    width: 80%;
+    margin-top: 11vw;
+    margin-left: 63vw;
+}
+
+#sub input{
+    position: absolute;
+    z-index: 8;
+    width: 70%;
+    height: 3%;
+    margin-top: 10vw;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+  }
+
+#body input{
+    position: absolute;
+    z-index: 8;
+    width: 75%;
+    padding: 12px 20px;
+    margin-left:62vw;
+    border-radius: 4px;
+}
+  
+.insta .fb .twitter .behance .share{
+    margin-top: 6vw;
+}
+
+
+
+body{
+    padding: 0vw;
+    margin: 0vw;
+    font-family: 'opensan';
+}
+
+.main{
+    width:98.5vw;
+    margin: auto; 
+}
+
+.navone{
+    width: 100%;
+    display: grid;
+    grid: auto / 10% 10% 50% 20% 10%;
+
+}
+
+.navone .logo{
+    grid-area: 1/1;
+    height: 5vw;
+}
+
+.navone .logo img{
+     padding-top: 0.5vw;
+     width: 15vw;
+}
+
+.navone .lang{
+    grid-area: 1/2;
+    margin-left: 12vw;
+    padding-top: 1.5vw;
+    width: 100%;
+    font-size: 16px;
+}
+.navone .blogs{
+    grid-area: 1/4;
+    padding-top: 1.5vw;
+    text-align: center;
+    font-size: 16px;
+}
+
+a:link, a:visited, a:active{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #228485;
+}
+
+.about:hover{
+    color: #228485 ;
+}
+
+.projects:hover{
+    color: #228485 ;
+}
+
+.navone{
+    width: 100%;
+    display: grid;
+    grid: auto / 10% 10% 50% 20% 10%;
+}
+
+.navone .logo{
+    grid-area: 1/1;
+    height: 5vw;
+}
+
+.navone .logo img{
+     padding-top: 0.5vw;
+     width: 15vw;
+}
+
+.navone .lang{
+    grid-area: 1/2;
+    margin-left: 12vw;
+    padding-top: 1.5vw;
+    width: 100%;
+    font-size: 16px;
+}
+.navone .blogs{
+    grid-area: 1/4;
+    font-style: bold;
+    font-weight:4vw;
+    padding-top: 1.5vw;
+    text-align: center;
+    font-size: 16px;
+    
+}
+.navone .contact{
+    grid-area: 1/5;
+    padding-top: 1.5vw;
+    margin-left: 2vw;
+    font-size: 16px;
+}
+
+.navone .contact:hover{
+    color: #228485;
+    letter-spacing: 3px;
+    font-weight: bold;
+    grid-area: 1/5;
+    padding-top: 1.5vw;
+    margin-left: 2vw;
+    font-size: 16px;
+   
+}
+
+.navtwo{
+    margin-left: 13vw;
+    margin-top: 4vw;
+    width: 50%;
+    display: grid;
+    grid: auto / 45% 20% 45%;
+    grid-gap: 10vw;
+}
+
+.navtwo .about{
+    text-align: right;
+    text-decoration:none;
+}
+
+.navtwo .about:hover{
+    text-align: right; 
+    text-decoration:none;
+}
+
+.navtwo .projects{
+    text-align: center;
+}
+
+.navtwo .resume{
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+
+a:link, a:visited, a:active{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight:bold;
+    letter-spacing: 3px;
+}
+.posterr{
+     display: none;
+}
+.postertwo{
+    margin-left: -5px;
+    width: 100.53%;
+    margin-top: 2vw;
+    }
+
+.postertwo img{
+    width: 100%;
+}
+
+.topic{
+    margin-top: 0.25vw;
+    width: 100%;
+    text-align: center;
+}
+
+.topic img{
+    width: 95%;
+}
+
+.logos{
+    z-index: -1;
+    margin-top: -28vw;
+    margin-left: 46.5vw;
+}
+
+.line{
+    margin-left: 45.25vw;
+}
+
+.text{
+    color:white;
+    font-size: 4vw;
+    text-align: center;
+    font-weight:bold;
+}
+.text_one{
+    color:white;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-left: 37.5vw;
+    margin-top: -1vw;
+    font-weight:bold;
+}
+
+h5{
+    text-align: center;
+    font-size:110%;
+    font-weight:bold;
+    margin-top: -2%;
+
+}
+
+.text_main{
+    margin-top: 14vw;
+    margin-bottom: 1vw;
+    display: grid;
+    grid: auto/ 15% 13% 13% 13% 13% 13% 13%;    
+    grid-gap:10px;
+}
+#sp{
+    text-align: left;
+    font-weight:bold;
+}
+
+.interests{
+    margin-left: 45px;
+    font-weight:bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 2px solid black;
+}
+
+.language{
+    font-weight:bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 2px solid black;
+}
+
+.workexp{
+    font-weight:bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 2px solid black;
+}
+
+.edu{
+    font-weight:bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 2px solid black;
+}
+
+.software{
+    font-weight:bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 2px solid black;
+}
+
+.achievements{
+    font-weight:bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 2px solid black;
+}
+
+.values{
+    font-weight:bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    
+}
+
+span{
+    padding-bottom: 1% ;
+    border-bottom: 1px solid black ;
+}
+span:hover{
+    padding-bottom: 1% ;
+    border-bottom: 8px solid #228485 ;
+    letter-spacing: 3px;
+}
+
+.menu{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:480px)  { /* smartphones, Android phones, landscape iPhone */ 
+
+    @font-face {
+        font-family: 'opensan';
+        src: url('/public/font/OpenSans-Regular.ttf');
+    }
+   
+    body{
+        padding: 0vw;
+        margin: 0vw;
+        font-family: 'opensan';
+    }
+    
+    .main{
+        width:100vw;
+        }
+    
+    .navone{
+        width: 85%;
+        display: grid;
+        grid: auto / 60% 40%;
+        padding-top: 3%;
+    
+    }
+    
+    .navone .logo{
+        grid-area: 1/1;
+        width: 100%;
+    }
+    
+    .navone .logo img{
+        margin-left: -6%;
+        width:100%;
+    }
+    
+    .navone .lang{
+        grid-area: 1/2;
+        margin-left: 12vw;
+        padding-top: 1.5vw;
+        width: 100%;
+        font-size: 16px;
+        display: none;
+    }
+
+    .navone .blogs{
+        grid-area: 1/4;
+        padding-top: 1.5vw;
+        text-align: center;
+        font-size: 16px;
+        display: none;
+    }
+
+    .navone .contact{
+  
+        padding-top: 1.5vw;
+        margin-left: 2vw;
+        font-size: 16px;
+        display: none;
+    }
+     
+    .navtwo{
+        margin-left: 8%;
+        margin-top: 20%;
+        width: 70%;
+        display: grid;
+        grid: auto / 30% 30% 30%;
+        grid-gap: 10%;
+        text-align: center;
+        
+    }
+    
+    .navtwo .about{
+        font-size: 90%;
+    }
+
+    .navtwo .about:hover{
+        font-size: 90%;
+    }
+    
+    .navtwo .projects{
+        font-size: 90%;
+        margin-left: 17%;
+    }
+    
+    .navtwo .resume{
+        font-size: 90%;
+    }
+    
+
+
+    a:hover{
+        color: #228485;
+    }
+    
+    .about:hover{
+        color: #228485 ;
+    }
+    
+    .projects:hover{
+        color: #228485 ;
+    }
+
+     
+    a:link, a:visited, a:active{
+        color: black;
+        text-decoration: none;
+    }
+
+   
+    .posterr{
+        display: block;
+   }
+  
+   .posterr{
+    width: 100%;
+    margin-top: 27%;
+    }
+    
+    .posterr img{
+    width: 100%;
+    }
+
+    .postertwo{
+    width: 100%;
+    height: 200%;
+    margin-top: 8%;
+    display: none;
+
+    }
+
+    .postertwo img{
+    width: 100%;
+    height: 200%;
+    display: none;
+    }
+
+    .topic{
+        margin-top: 0.25vw;
+        width: 100%;
+        text-align: center;
+        display: none;
+    }
+    
+    .topic img{
+        width: 95%;
+        display: none;
+    }
+
+
+    .logos{
+        z-index: -1;
+        margin-top: -40%;
+        margin-left: 45%;
+        width:27%;
+    }
+
+    .logos img{
+        width:30%;
+    }
+    
+    .line{
+        margin-top: -3%;
+        margin-left:40%;
+        width: 25%;
+    }
+
+    .line img{
+        width: 70%;
+    }
+    
+    .text{
+        color:white;
+        font-size: 160%;
+        text-align: center;
+        font-weight:bold;
+    }
+
+    .text_one{
+        color:white;
+        font-size: 70%;
+        margin-top:0.05%;
+        margin-left:-2%;
+    }
+    
+    .text_main{
+        margin-top: 20%;
+        display: grid;
+        grid: auto/ auto;    
+        grid-row-gap:4%;
+        margin-bottom:70%;
+    }
+    
+    span{
+        text-align: center;
+        font-weight:bold;
+        font-size: 90%;
+        padding-bottom: 2% ;
+        border-bottom: 3px solid black ;
+    }
+    h5{
+        
+        text-align: center;
+        font-size:110%;
+        font-weight:bold;
+        margin-top: -2%;
+        color:#228485;
+        padding-bottom: 4px;
+        border-bottom: 2px solid black;
+    
+    }
+
+    
+    .interests{
+        font-size:90%;
+        margin-left:10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        border-left: 2px solid black;
+    }
+    
+    .language{
+        font-size:90%;
+        margin-left: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        border-left: 2% solid black;
+    }
+    
+    .workexp{
+        font-size:90%;
+        margin-left: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        border-left: 2% solid black;
+    }
+    
+    .edu{
+        font-size:90%;
+        margin-left: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        border-left: 2% solid black;
+    }
+    
+    .software{
+        font-size:90%;
+        margin-left: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        border-left: 2% solid black;
+    }
+    
+    .achievements{
+        font-size:90%;
+        margin-left: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        border-left: 2% solid black;
+    }
+    
+    .values{
+        font-size:90%;
+        margin-left: 10%;
+        padding-left: 10%;
+        border-left: 2% solid black;
+        margin-bottom: 15%;
+    }
+
+    .menu{
+        display: block;
+        text-align: center;
+        width: 30%;
+        margin-top: -27%;
+        margin-left: 70%;
+    }     
+
+    .menu img{
+        display: block;
+        margin-left:55% ;
+        width: 25%;
+    }
+
+    .menulist{
+        display: none;
+    }
+
+    .menu:hover .menulist{
+        display: block;
+    }
+
+    .listone{
+        font-weight:bold;
+        font-size: 90%;
+         margin-top: -19% ;
+         margin-left: -53%;
+         
+    }
+    
+    .listtwo{
+        font-weight:bold;
+        font-size: 90%;
+        margin-top: -17%;
+        margin-left: -57vw;
+    }
+
+    span{
+        padding-bottom: 1% ;
+        border-bottom: 1px solid black ;
+    }
+    
+    span:hover{
+        color: #228485;
+        padding-bottom: 1%;
+        border-bottom: 8px solid #228485;
+        letter-spacing: 3px;
+    }
+    
+}
+

@@ -1,0 +1,483 @@
+@font-face {
+    font-family: 'opensan';
+    src: url('/public/font/OpenSans-Regular.ttf');
+}
+
+.popup{
+    position: fixed;
+    width: 100vw;
+    height: 100vw;
+    background: rgb(0, 0, 0, 0.5);
+    display: none;
+    
+}
+.form{
+    display: grid;
+    grid: 25% 50% 25% / 37%;
+}
+
+.sub #sub{
+    width:100%;
+    height: 30px;
+    border: none;
+    font-size:15px;
+}
+
+.body #body{
+    text-align: left;
+    margin-top: 1%;
+    width: 100%;
+    height: 180px;
+    font-size:15px;
+    border: none;
+}
+
+.socialcon{
+   
+    z-index: 8;
+ 
+    display: grid;
+    grid: auto/20% 20% 20% 20% 20%;
+    grid-column-gap: 30%;
+    width: 13vw;
+    margin-top:1vw;
+    margin-left: 1vw;
+}
+
+
+.box{
+    display: block;
+    margin-left: 20vw;
+    position: absolute;
+    z-index: 5;
+    margin-top: 3vw;
+    margin-left:61vw;
+}
+
+.textt{
+    position: absolute;
+    z-index: 8;
+    margin-left: 63vw;
+    margin-top: 8vw;
+    color: #3d0167;
+    font-weight: bold;
+}
+
+.textter{
+    position: absolute;
+    z-index: 8;
+    margin-left: 63vw;
+    margin-top: 9.25vw;
+    color: black;
+}
+
+.form{
+    position: absolute;
+    z-index:9;
+    width: 80%;
+    margin-top: 11vw;
+    margin-left: 63vw;
+}
+
+#sub input{
+    position: absolute;
+    z-index: 8;
+    width: 70%;
+    height: 3%;
+    margin-top: 10vw;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+  }
+
+#body input{
+    position: absolute;
+    z-index: 8;
+    width: 75%;
+    padding: 12px 20px;
+    margin-left:62vw;
+    border-radius: 4px;
+}
+  
+.insta .fb .twitter .behance .share{
+    margin-top: 6vw;
+}
+
+body{
+    padding: 0vw;
+    margin: 0vw;
+    font-family: 'opensan';
+}
+
+.main{
+    width:98.5vw;
+    margin: auto; 
+}
+
+.navone{
+    width: 100%;
+    display: grid;
+    grid: auto / 10% 10% 50% 20% 10%;
+
+}
+
+.navone .logo{
+    grid-area: 1/1;
+    height: 5vw;
+}
+
+.navone .logo img{
+     padding-top: 0.5vw;
+     width: 15vw;
+}
+
+.navone .lang{
+    grid-area: 1/2;
+    margin-left: 12vw;
+    padding-top: 1.5vw;
+    width: 100%;
+    font-size: 16px;
+}
+
+.navone .blogs{
+    letter-spacing: 3px;
+    font-weight: bold;
+    grid-area: 1/4;
+    padding-top: 1.5vw;
+    text-align: center;
+    font-size: 16px;
+}
+.navone .blogs:hover{
+    grid-area: 1/4;
+    padding-top: 1.5vw;
+    text-align: center;
+    font-size: 16px;
+}
+
+.navone .contact{
+    grid-area: 1/5;
+    padding-top: 1.5vw;
+    margin-left: 2vw;
+    font-size: 16px;
+}
+
+.navone .contact:hover{
+    color: #228485;
+    letter-spacing: 3px;
+    font-weight: bold;
+    grid-area: 1/5;
+    padding-top: 1.5vw;
+    margin-left: 2vw;
+    font-size: 16px;
+}
+
+.navtwo{
+    margin-left: 13vw;
+    margin-top: 4vw;
+    width: 50%;
+    display: grid;
+    grid: auto / 45% 20% 45%;
+    grid-gap: 10vw;
+}
+
+.navtwo .about{
+    text-align: right;
+}
+
+.navtwo .projects{
+    text-align: center;
+}
+
+
+.navtwo .about:hover{
+    color: #228485;
+    text-align: right;
+    
+}
+
+.navtwo .projects:hover{
+    color: #228485;
+    text-align: center;
+ 
+    
+}
+
+.navtwo .resume:hover{
+    color:#228485;
+    
+}
+
+a:link, a:visited, a:active{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #228485;
+}
+
+a:link, a:visited, a:active{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #228485;
+}
+
+
+.blogpicone{
+    position: absolute;
+    display: block;
+    height: 35vw;
+    width: 25vw;
+    border-style: solid;
+    border-color:#4b0049;
+    border-width: 0.57vw;
+    z-index: 2;
+    margin-top: -37vw;
+    margin-left: 6vw;
+    transform: rotate(-10deg); 
+}
+
+.blogpic img{
+    margin-top:6vw;
+    margin-left:6vw;
+    width: 25vw;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+
+}
+
+.text{
+    width: 60vw;
+    font-style: bold;
+    font-size: 3vw; 
+    font-weight: bold;
+    color: black;
+
+    margin-top: -35vw;
+    margin-left: 33vw;
+}
+
+.textbod{
+    width: 55vw;
+    margin-left: 37vw;
+    margin-top: 2vw;
+}
+
+a:hover{
+    color: #228485;
+    font-weight:bold;
+    letter-spacing: 3px;
+}
+
+.about:hover{
+    color: #228485 ;
+}
+
+.projects:hover{
+    color: #228485 ;
+}
+
+.resume:hover{
+    color: #228485 ;
+}
+
+span{
+    text-align: center;
+    font-weight:bold;
+    font-size: 90%;
+    padding-bottom: 1% ;
+    border-bottom: 1px solid black ;
+}
+
+span:hover{
+    padding-bottom: 1% ;
+    border-bottom: 8px solid #228485 ;
+    letter-spacing: 3px;
+}
+
+.menu{
+    display: none;
+}
+
+
+
+
+@media only screen and (max-width:480px)  { /* smartphones, Android phones, landscape iPhone */ 
+
+    @font-face {
+        font-family: 'opensan';
+        src: url('/public/font/OpenSans-Regular.ttf');
+    }
+   
+    body{
+        padding: 0vw;
+        margin: 0vw;
+        font-family: 'opensan';
+    }
+    
+    .main{
+        width:100vw;
+        }
+    
+    .navone{
+        width: 85%;
+        display: grid;
+        grid: auto / 60% 40%;
+        padding-top: 3%;
+    
+    }
+    
+    .navone .logo{
+        grid-area: 1/1;
+        width: 100%;
+    }
+    
+    .navone .logo img{
+        margin-left: -6%;
+        width:100%;
+    }
+    
+    .navone .lang{
+        grid-area: 1/2;
+        margin-left: 12vw;
+        padding-top: 1.5vw;
+        width: 100%;
+        font-size: 16px;
+        display: none;
+    }
+
+    .navone .blogs{
+        grid-area: 1/4;
+        padding-top: 1.5vw;
+        text-align: center;
+        font-size: 16px;
+        display: none;
+    }
+    
+    .navone .contact{
+        padding-top: 1.5vw;
+        margin-left: 2vw;
+        font-size: 16px;
+        display: none;
+    }
+
+    .navtwo{
+        margin-left: 8%;
+        margin-top: 20%;
+        width: 70%;
+        display: grid;
+        grid: auto / 30% 30% 30%;
+        grid-gap: 10%;
+        text-align: center;
+        
+    }
+    
+    .navtwo .about{
+        font-size: 90%;
+        color: black;
+    }
+    
+    .navtwo .projects{
+        font-size: 90%;
+        margin-left: 20%;
+    }
+    
+    .navtwo .resume{
+        font-size: 90%;
+        
+    }
+
+    .menu{
+        display: block;
+        text-align: center;
+        width: 30%;
+        margin-top: -27%;
+        margin-left: 70%;
+    }     
+
+    .menu img{
+        display: block;
+        margin-left:55% ;
+        width: 25%;
+    }
+
+    .menulist{
+        display: none;
+    }
+
+    .menu:hover .menulist{
+        display: block;
+    }
+
+    .listone{
+        letter-spacing: 3px;
+        font-weight:bold;
+         font-size: 90%;
+         margin-top: -19% ;
+         margin-left: -56%;
+         }
+    
+    .listtwo{
+        font-weight: bold;
+        font-size: 90%;
+        margin-top: -17%;
+        margin-left: -60vw;
+    }
+
+    a:link, a:visited, a:active{
+        color: black;
+        text-decoration: none;
+    }
+    
+    
+    .blogpicone{
+        display: block;
+        height: 50%;
+        width: 60%;
+        border-style: solid;
+        border-color:#4b0049;
+        border-width: 0.9vw;
+        z-index: 2;
+        margin-top: -90vw;
+        margin-left: 17vw;
+        transform: rotate(-11deg); 
+    }
+    
+    .blogpic img{
+        margin-top: 32vw;
+        margin-left: 20vw;
+        width: 60%;
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+    
+    }
+    
+    .text{
+        width: 90vw;
+        font-style: bold;
+        font-size: 5vw; 
+        font-weight: bold;
+        color: black;
+        text-align:center;
+        margin-top: 10vw;
+        margin-left: 5vw;
+    }
+    
+    .textbod{
+        width: 90vw;
+        font-size: 3.5vw;
+        margin-left: 4vw;
+        margin-top: 5vw;
+    }
+    
+    span{
+        text-align: center;
+        font-size: 90%;
+        padding-bottom: 1% ;
+        border-bottom: 1px solid black ;
+    }
+
+}

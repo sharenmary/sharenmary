@@ -1,0 +1,334 @@
+
+
+@font-face {
+    font-family: 'opensans';
+    src: url('/public/font/OpenSans-Regular.ttf');
+}
+
+body{
+    padding: 0vw;
+    margin: 0vw;
+    font-family: 'opensans';
+}
+
+.main_con {
+    width: 98.9vw;
+
+}
+
+.main_con .fordesktop img{
+    width:100%;
+}
+
+.main_con .formobile{
+    display: none;
+}
+
+.circle1{
+    position: absolute;
+    display: block;
+    height: 20vw;
+    width: 20vw;
+    border-style: solid;
+    border-color:white;
+    border-width: 0.1vw;
+    border-radius: 13vw;
+    z-index: 1;
+    margin-top: -32.5vw;
+    margin-left: 20vw;
+}
+
+.circle1:hover{
+    position: absolute;
+    display: block;
+    height: 21vw;
+    width: 21vw;
+    border-style: solid;
+    border-color:white;
+    border-width: 0.20vw;
+    border-radius: 15vw;
+    z-index: 1;
+    margin-top: -33vw;
+    margin-left: 19.5vw;
+}
+
+.circle2{
+    position: absolute;
+    display: block;
+    height: 15vw;
+    width: 15vw;
+    border-style: solid;
+    border-color:white;
+    border-width: 0.15vw;
+    border-radius: 10vw;
+    z-index: 2;
+    margin-top: -30vw;
+    margin-left: 22.5vw;
+}
+
+.circle2:hover{
+    position: absolute;
+    display: block;
+    height: 16vw;
+    width: 16vw;
+    border-style: solid;
+    border-color:white;
+    border-width: 0.20vw;
+    border-radius: 12vw;
+    z-index: 2;
+    margin-top: -30.5vw;
+    margin-left: 22vw;
+}
+
+.circle3{
+    position: absolute;
+    display: block;
+    height: 10vw;
+    width: 10vw;
+    border-style: solid;
+    border-color:white;
+    border-width: 0.15vw;
+    border-radius: 10vw;
+
+    z-index: 3;
+    margin-top: -27.5vw;
+    margin-left: 25vw;
+}
+
+.circle3:hover{
+    position: absolute;
+    display: block;
+    height: 11vw;
+    width: 11vw;
+    border-style: solid;
+    border-color:white;
+    border-width: 0.20vw;
+    border-radius: 12vw;
+
+    z-index: 3;
+    margin-top: -28.25vw;
+    margin-left: 24.5vw;
+}
+
+.explore{
+    position: absolute;
+    display: block;
+
+    font-style: bold;
+    font-size: 1.5vw; 
+    font-weight: 6vw;
+    color: white;
+
+    z-index: 4;
+    margin-top: -23vw;
+    margin-left: 27vw; 
+}
+.explore:hover{
+    position: absolute;
+    display: block;
+
+    font-style: bold;
+    font-size: 1.6vw; 
+    font-weight: 6vw;
+    color: white;
+
+    z-index: 4;
+    margin-top: -23vw;
+    margin-left: 26.75vw; 
+}
+
+a:visited, a:link{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.name{
+    position: absolute;
+    display: block;
+
+    font-style: bold;
+    font-size: 5vw; 
+    font-weight: 10vw;
+    color: white;
+
+    z-index: 5;
+    margin-top: -18vw;
+    margin-left: 29vw; 
+}
+
+.des{
+    position: absolute;
+    display: block;
+
+    font-size: 1.5vw; 
+    font-weight: 20vw;
+    color: white;
+
+    z-index: 5;
+    margin-top: -12.5vw;
+    margin-left: 77.5vw; 
+}
+
+@media only screen and (max-width:480px)  { /* smartphones, Android phones, landscape iPhone */ 
+    @font-face {
+        font-family: 'opensans';
+        src: url('/public/font/OpenSans-Regular.ttf');
+    }
+    
+    body{
+        padding: 0vw;
+        margin: 0vw;
+        font-family: 'opensans';
+    }
+    
+    .main_con {
+        width: 98.9vw;
+    
+    }
+    
+    .main_con .fordesktop {
+        display: none;
+    }
+    
+    .main_con .formobile{
+        display: block;
+    }
+    
+    .main_con .formobile img{
+       width: 101.25%;
+    }
+
+    .circle1{
+        position: absolute;
+        display: block;
+        height: 60vw;
+        width: 60vw;
+        border-style: solid;
+        border-color:white;
+        border-width: 0.2vw;
+        border-radius: 60vw;
+        z-index: 1;
+        margin-top: -125vw;
+        margin-left: 21vw;
+    }
+    
+    .circle1:hover{
+        position: absolute;
+        display: block;
+        height: 61vw;
+        width: 61vw;
+        border-style: solid;
+        border-color:white;
+        border-width: 0.7vw;
+        border-radius: 60vw;
+        z-index: 4;
+        margin-top: -125vw;
+        margin-left: 20vw;
+    }
+    
+    .circle2{
+        position: absolute;
+        display: block;
+        height: 50vw;
+        width: 50vw;
+        border-style: solid;
+        border-color:white;
+        border-width: 0.3vw;
+        border-radius: 50vw;
+        z-index: 2;
+        margin-top: -120vw;
+        margin-left: 26vw;
+    }
+    
+    .circle2:hover{
+        position: absolute;
+        display: block;
+        height: 51vw;
+        width: 51vw;
+        border-style: solid;
+        border-color:white;
+        border-width: 0.70vw;
+        border-radius: 50vw;
+        z-index: 4;
+        margin-top: -121vw;
+        margin-left: 25vw;
+    }
+    
+    .circle3{
+        position: absolute;
+        display: block;
+        height: 37vw;
+        width: 37vw;
+        border-style: solid;
+        border-color:white;
+        border-width: 0.4vw;
+        border-radius: 40vw;
+        z-index: 3;
+        margin-top: -113vw;
+        margin-left: 32.5vw;
+    }
+    
+    .circle3:hover{
+        position: absolute;
+        display: block;
+        height: 41vw;
+        width: 41vw;
+        border-style: solid;
+        border-color:white;
+        border-width: 0.70vw;
+        border-radius: 41vw;
+    
+        z-index: 4;
+        margin-top: -115.5vw;
+        margin-left: 30vw;
+    }
+    
+    .explore{
+        position: absolute;
+        display: block;
+    
+        font-style: bold;
+        font-size: 140%; 
+        font-weight: bold;
+        color: white;
+    
+        z-index: 4;
+        margin-top: -99vw;
+        margin-left: 38vw;
+    }
+   
+    
+    a:visited, a:link{
+        color: white;
+        text-decoration: none;   
+    }
+    
+    .name{
+        position: absolute;
+        display: block;
+    
+        font-style: bold;
+        font-size: 170%; 
+        font-weight: 900;
+        color: white;
+    
+        z-index: 5;
+        margin-top: -75vw;
+        margin-left: 8vw;
+    }
+    
+    .des{
+        position: absolute;
+        display: block;
+    
+        font-style: bold;
+        font-size: 90%; 
+        font-weight: bold;
+        color: white;
+    
+        z-index: 5;
+        margin-top: -67.25vw;
+        margin-left: 72vw;
+    }
+}
